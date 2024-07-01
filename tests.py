@@ -47,3 +47,5 @@ class TestBookCollector:
         book.add_book_in_favorites('Буратино')
         book.delete_book_from_favorites('Буратино')
         assert len(book.get_list_of_favorites_books()) == 0
+
+    #comment
